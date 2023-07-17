@@ -1,21 +1,23 @@
-# Unexpected Keyboard Users Layouts
+# Unexpected Keyboard User Layouts
 
-This repository contains layouts for [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard) maintained by users.
+This repository contains user maintained layouts for [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard).
 
-## Use a layout from this repository
+## Using a layout from this repository
 
-Copy and paste the content of an `xml` file present in this repository into the "Custom Layout" option in the settings.
+Copy and paste the contents of an `xml` file present in this repository into the "Custom Layout" option in the preferences.
 
-## Share your layout
+## Sharing your layout
 
-Layouts are sorted by flavors (like `qwerty`, `dvorak`, etc..). New flavors can be created as long as they have a name.
+Layouts are sorted by flavors (such as `qwerty`, `dvorak`, etc..). New flavors can be created as long as they have a name.
 
-If your layout is inspired by QWERTY, write it to `qwerty/<your name>.xml` and open a PR.
+If your layout is inspired by QWERTY, write it in `qwerty/<your name>.xml` and open a PR.
 
-Feel free to open other PRs over time to improve your layouts.
+Feel free to open more PRs over time to improve your layouts.
 
 ## Making your own layout
 
-Layouts are written in XML. See [QWERTY](https://github.com/Julow/Unexpected-Keyboard/blob/master/res/xml/latn_qwerty_us.xml) or [Dvorak](https://github.com/Julow/Unexpected-Keyboard/blob/master/res/xml/latn_dvorak.xml) as an example.
+You can use the excellent [layout editor](https://unexpected-keyboard-layout-editor.lixquid.com) maintained by @Lixquid or edit the XML files.
 
-If your layout correspond an existing standard and might be used by anyone, consider adding it to the app. See the app's [contribution guideline](https://github.com/Julow/Unexpected-Keyboard/blob/master/CONTRIBUTING.md#guidelines)
+Feel free to take code from the layouts already in the app, for example [QWERTY](https://github.com/Julow/Unexpected-Keyboard/blob/master/res/xml/latn_qwerty_us.xml) and [Dvorak](https://github.com/Julow/Unexpected-Keyboard/blob/master/res/xml/latn_dvorak.xml).
+
+If your layout is inspired by an existing standard and could be used by anyone, consider adding it to the app. See the app's [contribution guideline](https://github.com/Julow/Unexpected-Keyboard/blob/master/CONTRIBUTING.md#guidelines)
