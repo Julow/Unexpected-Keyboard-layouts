@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keyboard bottom_row="false" width="6.0" name="MessagEase (RU)" script="cyrillic">
+  <row>
+    <key shift="1" key1="esc" key3="config"/>
+    <key key0="с" key1="“" key2="”" key3="$" key4="п" key5="—" key6="-" key7="–" key8="ц"/>
+    <key key0="и" key1="`" key2="´" key3="/" key4="\\" key5="+" key6="!" key7="й" key8="к"/>
+    <key key0="т" key1="‘" key2="’" key3="ь" key4="₽" key5="\?" key8="="/>
+  </row>
+  <row>
+    <key shift="1" key0="switch_numeric" key1="selectAll" key2="cut" key4="pasteAsPlainText" key5="switch_backward" key6="switch_forward" key7="copy" key8="paste"/>
+    <key key0="в" key1="{" key2="%" key3="[" key4="_" key5="(" key6="ы" key7="б" key8="ъ"/>
+    <key key0="о" key1="ч" key2="х" key3="щ" key4="ш" key5="ж" key6="г" key7="м" key8="я"/>
+    <key key0="а" key1="|" key2="}" key3="\@" key4="]" key5="л" key6=")" key7="shift" key8="capslock"/>
+  </row>
+  <row>
+    <key shift="1" key0="backspace" key6="delete" key8="insert"/>
+    <key key0="е" key1="~" key2="д" key3="«" key4="tab" key5="&lt;" key6="*" key7="ё" key8="э"/>
+    <key key0="р" key1="&quot;" key2="'" key3="," key4=":" key5="ю" key6="з" key7="у" key8="."/>
+    <key key0="н" key1="ф" key2="°" key3=";" key4="»" key5="\#" key6=">" key7="&amp;" key8="…"/>
+  </row>
+  <row>
+    <key shift="1" key0="enter" key2="switch_emoji" key3="action"/>
+    <key width="3" key0="space" key1="alt" key2="ctrl" key4="nbsp" key5="left" key6="right" key7="up" key8="down"/>
+  </row>
+</keyboard>
