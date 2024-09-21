@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This form assigns Gadsby layout.
+	#Introduction
+This layout shows how programming virtual layouts can aid in writing lipograms.
+Lipogram, for folks who don't know, is a way of writing without any individual symbol or group of symbols of option. A public domain book "Gadsby" is a shining illuistration of this approach, and in fact, this script follows similar laws to this book.
+
+	#Laws of gadsby lipogram layout
+ * no letter 'e' (e.g. introduction);
+ * no numbers with letter e (e.g. '1','3','5','7','8','9','0') That doesn't mean you're safe with the rest '2','4','6' numbers. You may accidentally create something like 24 "twEnty four", which consists of "two", "four";
+ * no abbreviations (e.g. "mr" = "mistEr");
+ * no dropping or replacing 'e' (e.g. "merecat" -> "m#r#cat", "twinkle -> twinkl", etc...)
+ * non-read symbols may be permitted (e.g. '{','}','=','?', etc...).
+Total symbols excluded: 'e','1','3','5','7','8','9','0',"esc".
+
+	#Lipogram tips
+ * Name your unique lipogram layout "Lipogram <excluded letters>" (Do as I say, not as I do, I chose "Gadsby" to describe only this very layout);
+ * Exclude vowels, as it's hardly a challange to write a lipogram excluding constants, especially 'z' or 'x';
+ * When retrofitting lipogram to your layout, just remove symbols specified in laws/rules section.
+-->
+<keyboard name="GADSBY (US)" script="latin">
+  <row>
+    <key key0="q"/>
+    <key key0="w" key1="~" key2="2" key3="\@"/>
+    <key key1="!" key3="\#" key4="loc €"/>
+    <key key0="r" key2="4" key3="$"/>
+    <key key0="t" key3="%"/>
+    <key key0="y" key2="6" key3="^"/>
+    <key key0="u" key3="&amp;"/>
+    <key key0="i" key3="*"/>
+    <key key0="o" key3="(" key4=")"/>
+    <key key0="p"/>
+  </row>
+  <row>
+    <key shift="0.5" key0="a" key1="loc tab" key2="`"/>
+    <key key0="s" key2="loc §" key3="loc ß"/>
+    <key key0="d"/>
+    <key key0="f"/>
+    <key key0="g" key2="-" key3="_"/>
+    <key key0="h" key2="=" key3="+"/>
+    <key key0="j" key4="}" key3="{"/>
+    <key key0="k" key3="[" key4="]"/>
+    <key key0="l" key2="|" key3="\\"/>
+  </row>
+  <row>
+    <key width="1.5" key0="shift" key2="loc capslock"/>
+    <key key0="z"/>
+    <key key0="x" key2="loc †"/>
+    <key key0="c" key2="&lt;" key3="."/>
+    <key key0="v" key2="&gt;" key3=","/>
+    <key key0="b" key2="\?" key3="/"/>
+    <key key0="n" key2=":" key3=";"/>
+    <key key0="m" key2="&quot;" key3="'"/>
+    <key width="1.5" key0="backspace" key2="delete"/>
+  </row>
+</keyboard>
