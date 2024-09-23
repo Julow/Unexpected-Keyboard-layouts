@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keyboard name="Shaw 2-Layer Swipe" script="Shavian">
+  <row>
+    <key width="0.9" key0="1" key2="!" key4="loc f1"/>
+    <key width="0.9" key0="2" key2="\@" key4="loc f2"/>
+    <key width="0.9" key0="3" key2="\#" key4="loc f3"/>
+    <key width="0.9" key0="4" key2="$" key4="loc f4"/>
+    <key width="0.9" key0="5" key2="%" key4="loc f5"/>
+    <key width="0.9" key0="6" key1="^" key4="loc f6"/>
+    <key width="0.9" key0="7" key1="&amp;" key4="loc f7"/>
+    <key width="0.9" key0="8" key1="*" key4="loc f8"/>
+    <key width="0.9" key0="9" key1="(" key3="loc f11" key4="loc f9"/>
+    <key width="0.9" key0="0" key1=")" key3="loc f12" key4="loc f10"/>
+  </row>
+  <row>
+    <key key0="𐑵" key2="𐑿" key4="esc"/>
+    <key key0="𐑧" key2="𐑱" key3="`" key4="~"/>
+    <key key0="𐑨" key2="𐑲" key3="&lt;" key4=">"/>
+    <key key0="𐑭" key2="𐑸" key3="‹" key4="›"/>
+    <key key0="𐑬" key2="𐑶" key3="«" key4="»"/>
+    <key key0="𐑝" key1="𐑓" key3="[" key4="]"/>
+    <key key0="𐑢" key1="𐑘" key3="{" key4="}"/>
+    <key key0="𐑞" key1="𐑔" key3="+" key4="="/>
+    <key key0="𐑣" key1="𐑙" key3="⸰"/>
+  </row>
+  <row>
+    <key key0="𐑤" key2="𐑮" key4="tab"/>
+    <key key0="𐑦" key1="𐑦𐑙" key2="𐑰"/>
+    <key key0="𐑩" key1="𐑾𐑯" key2="𐑾"/>
+    <key key0="𐑯" key1="𐑩𐑯" key2="𐑥"/>
+    <key key0="𐑷" key2="𐑹" key3="£" key4="€"/>
+    <key key0="𐑛" key1="𐑑" key3="'" key4="&quot;"/>
+    <key key0="𐑟" key1="𐑕" key3="\\" key4="|"/>
+    <key key0="𐑜" key1="𐑒" key3="-" key4="_"/>
+    <key key0="𐑚" key1="𐑐" key3="·"/>
+  </row>
+  <row>
+    <key key0="𐑪" key2="𐑺" key4="undo"/>
+    <key key0="𐑳" key2="𐑻" key4="cut"/>
+    <key key0="𐑼" key2="𐑽" key4="copy"/>
+    <key key0="𐑴" key2="𐑫" key4="paste"/>
+    <key key0="𐑠" key1="𐑖" key4="pasteAsPlainText"/>
+    <key key0="𐑡" key1="𐑗" key4="redo"/>
+    <key key0="," key1="/" key4=";"/>
+    <key key0="." key1="\?" key2="‽" key4=":"/>
+    <key key0="backspace" key1="delete"/>
+  </row>
+</keyboard>
