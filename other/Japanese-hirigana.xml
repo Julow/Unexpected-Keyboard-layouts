@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keyboard bottom_row="false" name="Japanese" script="Hirigana">
+  <row>
+    <key key1="esc" key4="tab"/>
+    <key key0="あ" key5="い" key6="え" key7="う" key8="お"/>
+    <key key0="か" key5="き" key6="け" key7="く" key8="こ"/>
+    <key key0="さ" key5="し" key6="せ" key7="す" key8="そ"/>
+    <key key0="backspace" key2="delete"/>
+  </row>
+  <row>
+    <key/>
+    <key key0="た" key5="ち" key6="て" key7="つ" key8="と"/>
+    <key key0="な" key5="に" key6="ね" key7="ぬ" key8="の"/>
+    <key key0="は" key5="ひ" key6="へ" key7="ふ" key8="ほ"/>
+    <key/>
+  </row>
+  <row>
+    <key key0="switch_numeric" key4="switch_emoji"/>
+    <key key0="ま" key5="み" key6="め" key7="む" key8="も"/>
+    <key key0="や" key5="「" key6="」" key7="ゆ" key8="よ"/>
+    <key key0="ら" key5="り" key6="れ" key7="る" key8="ろ"/>
+    <key key0="space" key5="left" key6="right" key7="switch_forward"/>
+  </row>
+  <row>
+    <key/>
+    <key/>
+    <key key0="わ" key5="を" key6="ー" key7="ん"/>
+    <key key5="left" key6="right" key7="up" key8="down"/>
+    <key key0="enter" key2="action"/>
+  </row>
+</keyboard>
