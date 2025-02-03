@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="QWERTY full (US)" script="latin" embedded_number_row="true">
+  <row height="0.75">
+    <key c="`" sw="~" width="0.75"/>
+    <key c="1" sw="!"/>
+    <key c="2" sw="@"/>
+    <key c="3" sw="#"/>
+    <key c="4" sw="$"/>
+    <key c="5" sw="%"/>
+    <key c="6" sw="^"/>
+    <key c="7" sw="&amp;"/>
+    <key c="8" sw="*"/>
+    <key c="9" sw="("/>
+    <key c="0" sw=")"/>
+    <key c="-" sw="_" n="f11_placeholder"/>
+    <key c="=" sw="+" n="f12_placeholder"/>
+    <key width="1.5" c="|" sw="\\"/>
+  </row>
+  <row>
+    <key c="esc" width="0.75"/>
+    <key c="q"/>
+    <key c="w"/>
+    <key c="e" se="loc €"/>
+    <key c="r"/>
+    <key c="t"/>
+    <key c="y"/>
+    <key c="u"/>
+    <key c="i"/>
+    <key c="o"/>
+    <key c="p"/>
+    <key c="[" sw="{"/>
+    <key c="]" sw="}"/>
+    <key width="1.5" c="backspace" e="delete"/>
+  </row>
+  <row>
+    <key c="tab"/>
+    <key c="a"/>
+    <key c="s" se="loc §" sw="loc ß"/>
+    <key c="d"/>
+    <key c="f"/>
+    <key c="g"/>
+    <key c="h"/>
+    <key c="j"/>
+    <key c="k"/>
+    <key c="l"/>
+    <key c=";" sw=":"/>
+    <key c="'" sw="&quot;" width="1.416666666666666"/> <!-- 0.5 + (3-0.25)÷3 -->
+    <key c="up" width="0.9166666666666666"/> <!-- (3-0.25)÷3 -->
+    <key w="home" e="end" n="page_up" s="page_down" width="0.9166666666666666"/>
+  </row>
+  <row>
+    <key width="1.5" c="shift" ne="loc capslock"/>
+    <key c="z"/>
+    <key c="x" ne="loc †"/>
+    <key c="c"/>
+    <key c="v"/>
+    <key c="b"/>
+    <key c="n"/>
+    <key c="m"/>
+    <key c="," sw="&lt;"/>
+    <key c="." sw="&gt;"/>
+    <key c="/" sw="?"/>
+    <key c="left" width="0.9166666666666666"/> <!-- (3-0.25)÷3 -->
+    <key c="down" width="0.9166666666666666"/>
+    <key c="right" width="0.9166666666666666"/>
+  </row>
+</keyboard>
