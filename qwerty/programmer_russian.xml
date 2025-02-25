@@ -4,8 +4,8 @@
     <key c="й" nw="loc esc" se="(" ne="1"/>
     <key c="ц" se="{" ne="2"/>
     <key c="у" se="!" ne="3"/>
-    <key c="к" sw="$" ne="4"/>
-    <key c="е" sw="%" ne="5" nw="ё"/>
+    <key c="к" se="$" ne="4"/>
+    <key c="е" se="%" ne="5" nw="ё"/>
     <key c="н" ne="loc redo"/>
     <key c="г" sw="^" ne="6"/>
     <key c="ш" sw="&amp;" ne="7"/>
@@ -20,7 +20,7 @@
     <key c="а" nw="+"/>
     <key c="п" nw="/"/>
     <key c="р"/>
-    <key c="о" nw="@"/>
+    <key c="о" ne="@"/>
     <key c="л" ne="="/>
     <key c="д" ne=";"/>
     <key c="ж" nw="'" sw="&quot;"/>
@@ -33,7 +33,7 @@
     <key width="0.96" c="с" nw=":" sw="loc copy"/>
     <key width="0.96" c="м" nw="#" sw="loc paste" se="loc pasteAsPlainText"/>
     <key width="0.96" c="и" nw="`"/>
-    <key width="0.96" c="т" nw="~"/>
+    <key width="0.96" c="т" ne="~"/>
     <key width="0.96" c="ь" ne="?" se="ъ"/>
     <key width="0.96" c="б" nw="."/>
     <key width="0.96" c="ю" nw="&gt;"/>
