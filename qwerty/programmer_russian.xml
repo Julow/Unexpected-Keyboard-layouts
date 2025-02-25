@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="Programmer (Русский)" script="cyrillic">
+  <row>
+    <key c="й" nw="loc esc" se="(" ne="1"/>
+    <key c="ц" se="{" ne="2"/>
+    <key c="у" se="!" ne="3"/>
+    <key c="к" sw="$" ne="4"/>
+    <key c="е" sw="%" ne="5" nw="ё"/>
+    <key c="н" ne="loc redo"/>
+    <key c="г" sw="^" ne="6"/>
+    <key c="ш" sw="&amp;" ne="7"/>
+    <key c="щ" sw="*" ne="8"/>
+    <key c="з" sw="}" ne="9"/>
+    <key c="х" sw=")" nw="0" ne="loc page_up"/>
+  </row>
+  <row>
+    <key c="ф" se="[" nw="loc tab" sw="loc selectAll"/>
+    <key c="ы" ne="_" se="-"/>
+    <key c="в" nw="\\"/>
+    <key c="а" nw="+"/>
+    <key c="п" nw="/"/>
+    <key c="р"/>
+    <key c="о" nw="@"/>
+    <key c="л" ne="="/>
+    <key c="д" ne=";"/>
+    <key c="ж" nw="'" sw="&quot;"/>
+    <key c="э" ne="|" sw="]" se="loc page_down"/>
+  </row>
+  <row>
+    <key width="1.18" c="shift" ne="loc capslock"/>
+    <key width="0.96" c="я" ne="&lt;" sw="loc undo"/>
+    <key width="0.96" c="ч" ne="," sw="loc cut"/>
+    <key width="0.96" c="с" nw=":" sw="loc copy"/>
+    <key width="0.96" c="м" nw="#" sw="loc paste" se="loc pasteAsPlainText"/>
+    <key width="0.96" c="и" nw="`"/>
+    <key width="0.96" c="т" nw="~"/>
+    <key width="0.96" c="ь" ne="?" se="ъ"/>
+    <key width="0.96" c="б" nw="."/>
+    <key width="0.96" c="ю" nw="&gt;"/>
+    <key width="1.18" c="backspace" ne="delete"/>
+  </row>
+</keyboard>
