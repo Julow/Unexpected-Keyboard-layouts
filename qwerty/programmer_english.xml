@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<keyboard name="Programmer english" script="latin">
+<keyboard name="Programmer (English)" script="latin">
   <row>
-    <key c="q" nw="loc esc" se="("/>
-    <key c="w" se="{"/>
-    <key c="e" se="!"/>
-    <key c="r" sw="$"/>
-    <key c="t" sw="%"/>
-    <key c="y" sw="^" ne="loc redo"/>
-    <key c="u" sw="&amp;"/>
-    <key c="i" sw="*"/>
-    <key c="o" sw="}"/>
-    <key c="p" sw=")" ne="loc page_up"/>
+    <key c="q" nw="loc esc" se="(" ne="1"/>
+    <key c="w" se="{" ne="2"/>
+    <key c="e" se="!" ne="3"/>
+    <key c="r" sw="$" ne="4"/>
+    <key c="t" sw="%" ne="5"/>
+    <key c="y" sw="^" ne="loc redo" nw="6"/>
+    <key c="u" sw="&amp;" ne="7"/>
+    <key c="i" sw="*" ne="8"/>
+    <key c="o" sw="}" ne="9"/>
+    <key c="p" sw=")" ne="loc page_up" nw="0"/>
   </row>
   <row>
     <key shift="0.5" se="[" c="a" sw="loc selectAll" nw="loc tab"/>
