@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="Programmer (English)" script="latin">
+  <row>
+    <key c="q" nw="loc esc" se="@" ne="1"/>
+    <key c="w" se="-" ne="2"/>
+    <key c="e" se="!" ne="3"/>
+    <key c="r" sw="$" ne="4"/>
+    <key c="t" sw="%" ne="5"/>
+    <key c="y" se="^" ne="loc redo" nw="6"/>
+    <key c="u" se="&amp;" ne="7"/>
+    <key c="i" sw="*" ne="8"/>
+    <key c="o" sw="_" ne="9"/>
+    <key c="p" sw="'" ne="loc page_up" nw="0"/>
+  </row>
+  <row>
+    <key shift="0.5" se="[" c="a" sw="loc selectAll" nw="loc tab"/>
+    <key c="s" se="("/>
+    <key c="d" nw="{"/>
+    <key c="f" nw="&quot;"/>
+    <key c="g" nw=";" se="\\"/>
+    <key c="h" ne="=" sw="+"/>
+    <key c="j" ne="}"/>
+    <key c="k" sw=")"/>
+    <key c="l" ne="|" sw="]" se="loc page_down"/>
+  </row>
+  <row>
+    <key width="1.5" c="shift" ne="loc capslock"/>
+    <key c="z" ne="&lt;" sw="loc undo"/>
+    <key c="x" ne="," sw="loc cut"/>
+    <key c="c" nw=":" sw="loc copy"/>
+    <key c="v" ne="\#" sw="loc paste" se="loc pasteAsPlainText"/>
+    <key c="b" ne="\?" sw="/"/>
+    <key c="n" nw="." se="`"/>
+    <key c="m" nw="&gt;" se="~"/>
+    <key width="1.5" c="backspace" ne="delete"/>
+  </row>
+</keyboard>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="QWERTZ + Numbers (Slovenian)" script="latin">
+  <row>
+    <key key0="1" key1="!" key4="~" />
+    <key key0="2" key1='"' />
+    <key key0="3" key1="#" key4="^"/>
+    <key key0="4" key1="$" key4="-" />
+    <key key0="5" key1="%" key4="°"/>
+    <key key0="6" key1="&amp;" key4="_"/>
+    <key key0="7" key1="/" key4="`" />
+    <key key0="8" key1="(" key4="+"/>
+    <key key0="9" key1=")" key4="?"/>
+    <key key0="0" key1="=" key4="*"/>
+  </row>
+  <row>
+    <key key0="q" key1="\" key4="loc esc"/>
+    <key key0="w" key1="|"/>
+    <key key0="e" key1="€" key3="é" key4="ě"/>
+    <key key0="r" key1="ŕ" key4="ř"/>
+    <key key0="t" key4="ť"/>
+    <key key0="z" key1="ž" key4="¤"/>
+    <key key0="u" key2="ü" key3="ú" key4="ů"/>
+    <key key0="i" key1="í" key4="'"/>
+    <key key0="o" key2="ö" key3="ó" key4="ô"/>
+    <key key0="p" key1="÷" key4="×" />
+  </row>
+  <row>
+    <key key0="a" key1="loc tab" key3="á" key4="ä"/>
+    <key key0="s" key1="š" key3="ś" key4="ß"/>
+    <key key0="d" key4="ď" key1="đ"/>
+    <key key0="f" key1="["/>
+    <key key0="g" key2="]"/>
+    <key key0="h" />
+    <key key0="j" />
+    <key key0="k" key1="ł"/>
+    <key key0="l" key1="Ł"/>
+    <key key0="backspace" key3="delete"/>
+  </row>
+  <row>
+    <key key0="shift" key2="loc capslock"/>
+    <key key0="y" key1="&lt;" key3="&gt;"/>
+    <key key0="x" key1="loc †"/>
+    <key key0="c" key1="č" key4="ć"/>
+    <key key0="v" key1="\@"/>
+    <key key0="b" key1="{" />
+    <key key0="n" key1="}"/>
+    <key key0="m" key1="§"/>
+    <key key0="," key1=";" key4="&lt;"/>
+    <key key0="." key1=":" key4="&gt;"/>
+  </row>
+</keyboard>
