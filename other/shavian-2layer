@@ -28,7 +28,7 @@
     <key key0="𐑼" n="𐑽" se="loc copy"/>
     <key key0="𐑴" n="𐑫" sw="loc pasteAsPlainText" se="loc paste"/>
     <key key0="𐑠" n="𐑖" se="loc share"/>
-    <key key0="𐑡" n="𐑗" se="loc redo"/>
+    <key key0="𐑡" n="𐑗" se="loc redo" sw="VS01:'&#xFE00;'"/>
     <key key0="," nw="/" ne="!" sw="·" se=";"/>
     <key key0="." nw="\?" ne="‽" sw="⸰" se=":"/>
     <key key0="backspace" n="delete" w="loc delete_word" s="loc forward_delete_word"/>
