@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <keyboard name="Shaw 2-Layer Swipe" script="Shavian">
+  <modmap>
+    <ctrl a="𐑵" b="q"/>
+    <ctrl a="𐑿" b="Q"/>
+    <ctrl a="𐑧" b="w"/>
+    <ctrl a="𐑱" b="W"/>
+    <ctrl a="𐑨" b="e"/>
+    <ctrl a="𐑲" b="E"/>
+    <ctrl a="𐑭" b="r"/>
+    <ctrl a="𐑸" b="R"/>
+    <ctrl a="𐑬" b="t"/>
+    <ctrl a="𐑶" b="T"/>
+    <ctrl a="𐑝" b="y"/>
+    <ctrl a="𐑓" b="Y"/>
+    <ctrl a="𐑢" b="u"/>
+    <ctrl a="𐑘" b="U"/>
+    <ctrl a="𐑞" b="i"/>
+    <ctrl a="𐑔" b="I"/>
+    <ctrl a="𐑣" b="o"/>
+    <ctrl a="𐑙" b="O"/>
+    <ctrl a="‹" b="p"/>
+    <ctrl a="›" b="P"/>
+
+    <ctrl a="𐑤" b="a"/>
+    <ctrl a="𐑮" b="A"/>
+    <ctrl a="𐑦" b="s"/>
+    <ctrl a="𐑰" b="S"/>
+    <ctrl a="𐑩" b="d"/>
+    <ctrl a="𐑾" b="D"/>
+    <ctrl a="𐑯" b="f"/>
+    <ctrl a="𐑥" b="F"/>
+    <ctrl a="𐑷" b="g"/>
+    <ctrl a="𐑹" b="G"/>
+    <ctrl a="𐑛" b="h"/>
+    <ctrl a="𐑑" b="H"/>
+    <ctrl a="𐑟" b="j"/>
+    <ctrl a="𐑕" b="J"/>
+    <ctrl a="𐑜" b="k"/>
+    <ctrl a="𐑒" b="K"/>
+    <ctrl a="𐑚" b="l"/>
+    <ctrl a="𐑐" b="L"/>
+
+    <ctrl a="𐑪" b="z"/>
+    <ctrl a="𐑺" b="Z"/>
+    <ctrl a="𐑳" b="x"/>
+    <ctrl a="𐑻" b="X"/>
+    <ctrl a="𐑼" b="c"/>
+    <ctrl a="𐑽" b="C"/>
+    <ctrl a="𐑴" b="v"/>
+    <ctrl a="𐑫" b="V"/>
+    <ctrl a="𐑠" b="b"/>
+    <ctrl a="𐑖" b="B"/>
+    <ctrl a="𐑡" b="n"/>
+    <ctrl a="𐑗" b="N"/>
+    <ctrl a="«" b="m"/>
+    <ctrl a="»" b="M"/>
+  </modmap>
   <row>
     <key key0="𐑵" n="𐑿" s="loc esc"/>
     <key key0="𐑧" n="𐑱" sw="`" se="~"/>
