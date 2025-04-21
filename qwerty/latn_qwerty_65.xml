@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="QWERTY 65% Layout" script="latin" bottom_row="false" embedded_number_row="true">
+  <row height="0.85">
+    <key c="`" indication="~" nw="loc esc"/>
+    <key c="1" indication="!"/>
+    <key c="2" indication="@"/>
+    <key c="3" indication="#"/>
+    <key c="4" indication="$"/>
+    <key c="5" indication="%"/>
+    <key c="6" indication="^"/>
+    <key c="7" indication="&amp;"/>
+    <key c="8" indication="*"/>
+    <key c="9" indication="("/>
+    <key c="0" indication=")"/>
+    <key c="-" indication="_"/>
+    <key c="=" indication="+"/>
+    <key width="1.75" c="backspace"/>
+  </row>
+  <row>
+    <key width="1.25" c="tab"/>
+    <key c="q"/>
+    <key c="w"/>
+    <key c="e"/>
+    <key c="r"/>
+    <key c="t"/>
+    <key c="y"/>
+    <key c="u"/>
+    <key c="i"/>
+    <key c="o"/>
+    <key c="p"/>
+    <key c="[" indication="{"/>
+    <key c="]" indication="}"/>
+    <key width="1.5" c="\" indication="|"/>
+  </row>
+  <row>
+    <key width="1.5" ne="capslock"/>
+    <key c="a"/>
+    <key c="s" ne="loc §" sw="loc ß"/>
+    <key c="d"/>
+    <key c="f"/>
+    <key c="g"/>
+    <key c="h"/>
+    <key c="j"/>
+    <key c="k"/>
+    <key c="l"/>
+    <key c=";" indication=":"/>
+    <key c="'" indication="&quot;"/>
+    <key width="2.25" c="enter" key2="action"/>
+  </row>
+  <row>
+    <key width="2" c="shift"/>
+    <key c="z"/>
+    <key c="x" ne="loc †"/>
+    <key c="c"/>
+    <key c="v"/>
+    <key c="b"/>
+    <key c="n"/>
+    <key c="m"/>
+    <key c="," indication="&lt;"/>
+    <key c="." indication="&gt;"/>
+    <key c="/" indication="?"/>
+    <key width="0.75" c="shift"/>
+    <key c="up"/>
+  </row>
+  <row>
+    <key width="1.25" c="ctrl"/>
+    <key width="1.25" c="meta"/>
+    <key width="1.25" c="alt"/>
+    <key width="6" c=" "/>
+    <key width="1" c="fn"/>
+    <key width="1" c="ctrl"/>
+    <key width="1" c="left"/>
+    <key width="1" c="down"/>
+    <key width="1" c="right"/>
+  </row>
+<modmap>
+  <shift a="1" b="!"/>
+  <shift a="2" b="@"/>
+  <shift a="3" b="#"/>
+  <shift a="4" b="$"/>
+  <shift a="5" b="%"/>
+  <shift a="6" b="^"/>
+  <shift a="7" b="&amp;"/>
+  <shift a="8" b="*"/>
+  <shift a="9" b="("/>
+  <shift a="0" b=")"/>
+  <shift a="-" b="_"/>
+  <shift a="=" b="+"/>
+  <shift a="backspace" b="delete"/>
+  <shift a="[" b="{"/>
+  <shift a="}" b="}"/>
+  <shift a="\" b="|"/>
+  <shift a="," b="&lt;"/>
+  <shift a="." b="&gt;"/>
+  <shift a="/" b="?"/>
+  <shift a="enter" b="\n"/>
+
+  <fn a="," b=","/>
+  <fn a="'" b="'"/>
+</modmap>
+</keyboard>
