@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Staggered QWERTY Vi-centered keyboard layout centered around holding modifiers,
+ideal for touch typing on tablets or thumb typing on phones in landscape
+
+Licensed under Creative Commons CC0 1.0 Universal.
+See <https://creativecommons.org/publicdomain/zero/1.0/> for details.
+-->
+<keyboard
+  name="QWERTY (Vi Touch)"
+  bottom_row="false"
+  embedded_number_row="true"
+  locale_extra_keys="false"
+  script="latin">
+  <row>
+    <key c="`" indication="~" width="0.5"/>
+    <key c="1" indication="!・F1"/>
+    <key c="2" indication="@・F2"/>
+    <key c="3" indication="#・F3"/>
+    <key c="4" indication="$・F4"/>
+    <key c="5" indication="%・F5"/>
+    <key c="6" indication="^・F6"/>
+    <key c="7" indication="&amp;・F7"/>
+    <key c="8" indication="*・F8"/>
+    <key c="9" indication="(・F9"/>
+    <key c="0" indication=")・F10"/>
+    <key c="-" indication="_・F11"/>
+    <key c="=" indication="+・F12"/>
+    <key c="backspace" indication="⌦"/>
+  </row>
+  <row>
+    <key c="tab"/>
+    <key c="q"/>
+    <key c="w"/>
+    <key c="e"/>
+    <key c="r"/>
+    <key c="t"/>
+    <key c="y"/>
+    <key c="u"/>
+    <key c="i"/>
+    <key c="o"/>
+    <key c="p"/>
+    <key c="[" indication="{"/>
+    <key c="]" indication="}"/>
+    <key c="\\" indication="|・Ins" width="0.5"/>
+  </row>
+  <row>
+    <key c="esc" width="1.25"/>
+    <key c="a"/>
+    <key c="s"/>
+    <key c="d"/>
+    <key c="f"/>
+    <key c="g"/>
+    <key c="h"/>
+    <key c="j"/>
+    <key c="k"/>
+    <key c="l"/>
+    <key c=";" indication=":"/>
+    <key c="'" indication="&quot;"/>
+    <key c="enter" width="1.25"/>
+  </row>
+  <row>
+    <key c="shift" width="1.75"/>
+    <key c="z"/>
+    <key c="x"/>
+    <key c="c"/>
+    <key c="v"/>
+    <key c="b"/>
+    <key c="n"/>
+    <key c="m"/>
+    <key c="," indication="&lt;"/>
+    <key c="." indication="&gt;"/>
+    <key c="/" indication="?"/>
+    <key c="shift" width="1.75"/>
+  </row>
+  <row>
+    <key c="ctrl" width="0.75"/>
+    <key c="fn" key3="switch_numeric"/>
+    <key c="meta"/>
+    <key c="alt"/>
+    <key c="space"
+      key5="cursor_left"
+      key6="cursor_right"
+      indication="IM・Layout"
+      width="5"/>
+    <key c="alt"/>
+    <key c="meta"/>
+    <key c="ctrl"/>
+    <key c="left" width="0.43"/>
+    <key c="down" width="0.44"/>
+    <key c="up" width="0.44"/>
+    <key c="right" width="0.44"/>
+  </row>
+  <modmap>
+    <!-- Extra: Vi Touch -->
+    <fn a="backspace" b="delete"/>
+    <fn a="space" b="change_method_prev"/>
+
+    <!-- Extra -->
+    <fn a="-" b="f11"/>
+    <fn a="=" b="f12"/>
+    <fn a="\\" b="insert"/>
+    <shift a="change_method_prev" b="switch_forward"/>
+
+    <!-- Row: 1234 -->
+    <shift a="`" b="~"/>
+    <shift a="1" b="!"/>
+    <shift a="2" b="@"/>
+    <shift a="3" b="#"/>
+    <shift a="4" b="$"/>
+    <shift a="5" b="%"/>
+    <shift a="6" b="^"/>
+    <shift a="7" b="&amp;"/>
+    <shift a="8" b="*"/>
+    <shift a="9" b="("/>
+    <shift a="0" b=")"/>
+    <shift a="-" b="_"/>
+    <shift a="=" b="+"/>
+
+    <!-- Row: QWERTY -->
+    <shift a="[" b="{"/>
+    <shift a="]" b="}"/>
+    <shift a="\\" b="|"/>
+
+    <!-- Row: ASDF -->
+    <shift a=";" b=":"/>
+    <shift a="'" b="&quot;"/>
+
+    <!-- Row: ZXCV -->
+    <shift a="," b="&lt;"/>
+    <shift a="." b="&gt;"/>
+    <shift a="/" b="?"/>
+  </modmap>
+</keyboard>
