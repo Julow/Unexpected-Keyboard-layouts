@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This keyboard adds the Esperanto-specific diacritic letters: ĉ ĝ ĥ ĵ ŝ ŭ by implementing the de-facto standard ŜĜERTŬ layout
+which replaces the letters Q, W, X, and Y (not used in Esperanto) with four of the six letters, and adds the 2 remaining letters as keys on the right.
+It also adds the (obsolete) Spesmilo currency sign and the culturally significant star symbol.
+Contributed by Haley Halcyon
+-->
+<keyboard name="ŜĜERTŬ (Esperanto)" script="latin">
+  <modmap>
+    <fn a="ŝ" b="₷" />
+  </modmap>
+  <row>
+    <key c="ŝ" ne="1" se="q" sw="loc esc"/>
+    <key c="ĝ" nw="~" ne="2" sw="\@" se="w"/>
+    <key c="e" nw="!" ne="3" sw="\#" se="loc €"/>
+    <key c="r" ne="4" sw="$"/>
+    <key c="t" ne="5" nw="tre " se="tro " sw="&percnt;" />
+    <key c="ŭ" ne="6" nw="aŭ" sw="^" se="y"/>
+    <key c="u" ne="7" sw="&amp;"/>
+    <key c="i" ne="8" nw="ist" sw="*"/>
+    <key c="o" ne="9" nw="ojn " sw="(" se=")"/>
+    <key width="1.2" c="p" ne="0" nw="por " sw="pri " se="per " />
+  </row>
+  <row>
+    <key width="1.2" c="a" nw="ajn" se="ant" sw="loc tab" ne="`"/>
+    <key c="s" ne="loc §" sw="loc ß" />
+    <key c="d" ne="de " nw="dis" />
+    <key c="f" ne="★" nw="☆" />
+    <key c="g" ne="-" sw="_"/>
+    <key c="h" ne="=" sw="+"/>
+    <key c="j" nw="jes" se="}" sw="{"/>
+    <key c="k" nw="kaj " sw="kun " />
+    <key c="l" nw="la " sw="[" se="]" />
+    <key c="ĵ" ne="|" sw="\\" />
+  </row>
+  <row>
+    <key c="shift" ne="loc capslock"/>
+    <key c="z" ne="loc †" nw="Zamenhof" />
+    <key c="ĉ" ne="ĉar " sw="ĉu " se="x" />
+    <key c="c" ne="&lt;" sw="."/>
+    <key c="v" ne="&gt;" sw=","/>
+    <key c="b" ne="\?" sw="/"/>
+    <key c="n" ne=":" sw=";"/>
+    <key c="m" ne="&quot;" sw="'"/>
+    <key c="ĥ" nw="Esperant" />
+    <key width="1.2" c="backspace" ne="delete"/>
+  </row>
+</keyboard>
