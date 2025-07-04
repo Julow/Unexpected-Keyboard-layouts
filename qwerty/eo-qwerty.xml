@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This keyboard adds the Esperanto-specific diacritic letters: ĉ ĝ ĥ ĵ ŝ ŭ as northwest swipes.
+It also adds the (obsolete) Spesmilo currency sign and the culturally significant star symbol.
+Contributed by Haley Halcyon
+-->
+<keyboard name="QWERTY (Esperanto)" script="latin">
+  <row>
+    <key c="q" ne="1" se="loc esc"/>
+    <key c="w" nw="~" ne="2" sw="\@"/>
+    <key c="e" nw="!" ne="3" sw="\#" se="loc €"/>
+    <key c="r" ne="4" sw="$"/>
+    <key c="t" ne="5" sw="%"/>
+    <key c="y" ne="6" sw="^"/>
+    <key c="u" nw="ŭ" ne="7" sw="&amp;"/>
+    <key c="i" ne="8" sw="*"/>
+    <key c="o" ne="9" sw="(" se=")"/>
+    <key c="p" ne="0"/>
+  </row>
+  <row>
+    <key shift="0.5" c="a" nw="loc tab" ne="`"/>
+    <key c="s" ne="loc §" nw="ŝ" se="₷" sw="loc ß"/>
+    <key c="d" ne="★" nw="☆" />
+    <key c="f"/>
+    <key c="g" ne="-" nw="ĝ" sw="_"/>
+    <key c="h" ne="=" nw="ĥ" sw="+"/>
+    <key c="j" nw="ĵ" se="}" sw="{"/>
+    <key c="k" sw="[" se="]"/>
+    <key c="l" ne="|" sw="\\"/>
+  </row>
+  <row>
+    <key width="1.5" c="shift" ne="loc capslock"/>
+    <key c="z"/>
+    <key c="x" ne="loc †"/>
+    <key c="c" ne="&lt;" nw="ĉ" sw="."/>
+    <key c="v" ne="&gt;" sw=","/>
+    <key c="b" ne="\?" sw="/"/>
+    <key c="n" ne=":" sw=";"/>
+    <key c="m" ne="&quot;" sw="'"/>
+    <key width="1.5" c="backspace" ne="delete"/>
+  </row>
+</keyboard>
