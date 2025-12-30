@@ -139,13 +139,13 @@
     <key c="ʔ" ne="0" nw="ʡ" sw="ˀ"/>
   </row>
   <row>
-    <key c="q" sw="ʠ" se="ǃ"/>
-    <key c="w" sw="ʍ" se="ʷ" nw="ɯ" ne="ɰ"/>
-    <key c="e" sw="ə" se="ɘ" nw="&quot;" ne="ɚ"/>
+    <key c="q" n="&quot;" sw="ʠ" se="ǃ"/>
+    <key c="w" nw="ɯ" ne="ʷ" sw="ɰ" se="ʍ"/>
+    <key c="e" sw="ə" se="ɚ" nw="ᵊ" ne="ɘ"/>
     <key c="r" sw="ɻ" se="ɹ" nw="ɽ" ne="ɺ"/>
-    <key c="t" sw="θ" se="ʈ" nw="ᶿ" ne="t̪"/>
+    <key c="t" sw="θ" se="ʈ" nw="t̪" ne="ᶿ"/>
     <key c="y" nw="ʏ" ne="ʎ"/>
-    <key c="u" sw="ʊ" se="ʉ"/>
+    <key c="u" nw="ʊ" ne="ʉ"/>
     <key c="i" nw="ɪ" ne="ɨ"/>
     <key c="o" nw="ɔ" ne="o̞"/>
     <key c="p" n="ɸ" s="ʘ"/>
@@ -164,7 +164,7 @@
   <row>
     <key width="1.5" c="shift" key2="loc capslock" s="loc subscript"/>
     <key c="z" sw="ʒ" se="ʐ" nw="ʓ" ne="ʑ"/>
-    <key c="x" sw="χ" se="ˣ" nw="ɣ"/>
+    <key c="x" sw="χ" nw="ɣ" ne="ˣ"/>
     <key c="c" nw="ç" ne="ɕ" sw="ǀ" se="ǂ"/>
     <key c="v" sw="ʋ" se="ʌ" nw="ⱱ" ne="ɴ"/>
     <key c="b" sw="β" se="ʙ" nw="ɓ"/>
