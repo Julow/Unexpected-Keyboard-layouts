@@ -1,6 +1,6 @@
 # Unexpected Keyboard User Layouts
 
-This repository contains user maintained layouts for [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard).
+My branch of layouts for [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard).
 
 ## Using a layout from this repository
 
