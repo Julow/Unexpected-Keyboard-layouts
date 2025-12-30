@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+IPA QWERTY Layout based on gboard QWERTY IPA,
+mixed in with a little bit of Fcitx5 IPA Layout
+Superscript is built in, but Subcript can be optionally toggled on
+CapsLock can also be optionally toggled on
+
+- SHIFT to access diacritics & symbols
+- Fn to access ɢʟᴏꜱꜱ mode
+
+-->
 <keyboard name="QWERTY IPA" bottom_row="false" script="latin">
  <modmap>
     <shift a="ɨ" b="˥"/>
@@ -79,12 +89,19 @@
     <fn a="ɾ" b="="/>
     <fn a="ɫ" b="["/>
     <fn a="ʀ" b="]"/>
-    <fn a="ɮ" b="{"/>
-    <fn a="ʁ" b="}"/>
     <fn a="ɤ" b="&lt;"/>
     <fn a="œ" b="&gt;"/>
     <fn a="ʕ" b="∅"/>
     <fn a="ʔ" b="`"/>
+
+    <fn a="ø̞" b="+"/>
+    <fn a="ɞ" b="#"/>
+    <fn a="ɿ" b="$"/>
+    <fn a="ǁ" b="%"/>
+    <fn a="ɮ" b="{"/>
+    <fn a="ʁ" b="}"/>
+    <fn a="ɤ̞" b="("/>
+    <fn a="ɵ" b=")"/>
 
     <fn a="1" b="1"/>
     <fn a="2" b="2"/>
@@ -107,7 +124,14 @@
     <fn a="i" b="ɪ"/>
     <fn a="o" b="ᴏ"/>
     <fn a="p" b="ᴘ"/>
-    
+
+    <fn a="&quot;" b="&amp;"/>
+    <fn a="@" b="*"/>
+    <fn a="ɯ" b="\"/>
+    <fn a="ʷ" b="|"/>
+    <fn a="ɸ" b=":"/>
+    <fn a="ʘ" b=";"/>
+
     <fn a="a" b="ᴀ"/>
     <fn a="s" b="ꜱ"/>
     <fn a="d" b="ᴅ"/>
@@ -117,7 +141,7 @@
     <fn a="j" b="ᴊ"/>
     <fn a="k" b="ᴋ"/>
     <fn a="l" b="ʟ"/>
-    
+
     <fn a="z" b="ᴢ"/>
     <fn a="x" b="x"/>
     <fn a="c" b="ᴄ"/>
@@ -139,7 +163,7 @@
     <key c="ʔ" ne="0" nw="ʡ" sw="ˀ"/>
   </row>
   <row>
-    <key c="q" n="&quot;" sw="ʠ" se="ǃ"/>
+    <key c="q" nw="&quot;" ne="@" sw="ʠ" se="ǃ"/>
     <key c="w" nw="ɯ" ne="ʷ" sw="ɰ" se="ʍ"/>
     <key c="e" sw="ə" se="ɚ" nw="ᵊ" ne="ɘ"/>
     <key c="r" sw="ɻ" se="ɹ" nw="ɽ" ne="ɺ"/>
@@ -176,7 +200,7 @@
   <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
   <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
   <key width="4.4" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
-  <key width="1.1" key0="ʰ" n="loc superscript"/>
+  <key width="1.1" key0="ʰ" n="superscript" s=","/>
   <key width="1.7" c="enter" s="esc" n="action"/>
 </row>
 </keyboard>
