@@ -16,7 +16,6 @@ CapsLock can also be optionally toggled on
     <shift a="ɜ" b="˧"/>
     <shift a="ɾ" b="˨"/>
     <shift a="ɫ" b="˩"/>
-    <shift a="ʀ" b="/"/>
     <shift a="ɤ" b="ˈ"/> <shift a="œ" b="ˌ"/>
     <shift a="ʕ" b="ː"/>
     <shift a="ʔ" b="ˑ"/>
@@ -45,14 +44,12 @@ CapsLock can also be optionally toggled on
     <shift a="ʈ" b="̺"/>
 
     <shift a="y" b="combining_caron"/>
-    <shift a="ʏ" b="̬"/>
     <shift a="ʎ" b="̂"/>
 
     <shift a="u" b="combining_breve"/>
     <shift a="i" b="combining_dot_above"/>
     <shift a="o" b="combining_ring"/>
     <shift a="ɔ" b="̥"/>
-    <shift a="t" b=""/>
 
     <shift a="p" b="combining_tilde"/>
     <shift a="ɸ" b="̰"/>
@@ -66,7 +63,6 @@ CapsLock can also be optionally toggled on
     <shift a="ɠ" b="͑"/>
     <shift a="ʛ" b="˒"/>
     <shift a="ɣ" b="͗"/>
-    <shift a="ɢ" b="̜"/>
 
     <shift a="h" b="̚"/>
     <shift a="j" b="̯"/>
@@ -74,14 +70,13 @@ CapsLock can also be optionally toggled on
     <shift a="l" b="̩"/>
 
     <shift a="z" b="ʼ"/>
-    <shift a="x" b="̽"/>
-    <shift a="c" b="̪"/>
-    <shift a="v" b=""/>
+    <shift a="ˣ" b="̽"/>
+    <shift a="c" b="̜"/>
+    <shift a="v" b="̬"/>
     <shift a="b" b="͡"/>
     <shift a="β" b="͜"/>
-    <shift a="ʙ" b="‿"/>
-    <shift a="n" b=""/>
-    <shift a="m" b=""/>
+    <shift a="n" b="‿"/>
+    <shift a="m" b="/"/>
 
     <shift a="," b="'"/>
 
@@ -98,6 +93,7 @@ CapsLock can also be optionally toggled on
 
     <fn a="ø̞" b="+"/>
     <fn a="ɞ" b="#"/>
+    <fn a="ɛ" b="~"/>
     <fn a="ɿ" b="$"/>
     <fn a="ɺ" b="≠"/>
     <fn a="ǁ" b="%"/>
@@ -153,7 +149,7 @@ CapsLock can also be optionally toggled on
     <fn a="n" b="ɴ"/>
     <fn a="m" b="ᴍ"/>
 
-    <shift a="ϙ" b="Q"/>
+   <shift a="ϙ" b="Q"/>
     <shift a="ᴡ" b="W"/>
     <shift a="ᴇ" b="E"/>
     <shift a="ʀ" b="R"/>
@@ -229,7 +225,7 @@ CapsLock can also be optionally toggled on
     <key width="1.5" c="backspace" se="delete"/>
   </row>
 <row height="0.95">
-  <key width="1.7" key0="ctrl" n="loc alt" key3="loc switch_clipboard" key4="switch_numeric"/>
+  <key width="1.7" key0="ctrl" key2="loc alt" key3="loc switch_clipboard" key4="switch_numeric"/>
   <key width="1.1" key0="fn" key2="loc change_method" key3="switch_emoji" key4="config"/>
   <key width="4.4" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
   <key width="1.1" key0="ʰ" n="superscript" s=","/>
