@@ -83,6 +83,8 @@ CapsLock can also be optionally toggled on
     <shift a="n" b=""/>
     <shift a="m" b=""/>
 
+    <shift a="," b="'"/>
+
     <fn a="ɨ" b="."/>
     <fn a="ø" b="-"/>
     <fn a="ɜ" b="_"/>
@@ -97,6 +99,7 @@ CapsLock can also be optionally toggled on
     <fn a="ø̞" b="+"/>
     <fn a="ɞ" b="#"/>
     <fn a="ɿ" b="$"/>
+    <fn a="ɺ" b="≠"/>
     <fn a="ǁ" b="%"/>
     <fn a="ɮ" b="{"/>
     <fn a="ʁ" b="}"/>
@@ -149,6 +152,35 @@ CapsLock can also be optionally toggled on
     <fn a="b" b="ʙ"/>
     <fn a="n" b="ɴ"/>
     <fn a="m" b="ᴍ"/>
+
+    <shift a="ϙ" b="Q"/>
+    <shift a="ᴡ" b="W"/>
+    <shift a="ᴇ" b="E"/>
+    <shift a="ʀ" b="R"/>
+    <shift a="ᴛ" b="T"/>
+    <shift a="ʏ" b="Y"/>
+    <shift a="ᴜ" b="U"/>
+    <shift a="ɪ" b="I"/>
+    <shift a="ᴏ" b="O"/>
+    <shift a="ᴘ" b="P"/>
+
+    <shift a="ᴀ" b="A"/>
+    <shift a="ꜱ" b="S"/>
+    <shift a="ᴅ" b="D"/>
+    <shift a="ꜰ" b="F"/>
+    <shift a="ɢ" b="G"/>
+    <shift a="ʜ" b="H"/>
+    <shift a="ᴊ" b="J"/>
+    <shift a="ᴋ" b="K"/>
+    <shift a="ʟ" b="L"/>
+
+    <shift a="ᴢ" b="Z"/>
+    <shift a="x" b="X"/>
+    <shift a="ᴄ" b="C"/>
+    <shift a="ᴠ" b="V"/>
+    <shift a="ʙ" b="B"/>
+    <shift a="ɴ" b="N"/>
+    <shift a="ᴍ" b="M"/>
  </modmap>
  <row>
     <key c="ɨ" ne="1" nw="!"/>
@@ -197,8 +229,8 @@ CapsLock can also be optionally toggled on
     <key width="1.5" c="backspace" se="delete"/>
   </row>
 <row height="0.95">
-  <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
-  <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
+  <key width="1.7" key0="ctrl" n="loc alt" key3="loc switch_clipboard" key4="switch_numeric"/>
+  <key width="1.1" key0="fn" key2="loc change_method" key3="switch_emoji" key4="config"/>
   <key width="4.4" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
   <key width="1.1" key0="ʰ" n="superscript" s=","/>
   <key width="1.7" c="enter" s="esc" n="action"/>
