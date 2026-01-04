@@ -7,6 +7,8 @@ CapsLock can also be optionally toggled on
 
 - SHIFT to access diacritics & symbols
 - Fn to access ɢʟᴏꜱꜱ mode
+- Fn & SHIFT to access capital letters
+- Num mode to access less common symbols
 
 -->
 <keyboard name="QWERTY IPA" bottom_row="false" script="latin">
@@ -77,6 +79,9 @@ CapsLock can also be optionally toggled on
     <shift a="β" b="͜"/>
     <shift a="n" b="‿"/>
     <shift a="m" b="/"/>
+    <shift a="ɲ" b="ᶮ"/>
+    <shift a="ɳ" b="ᶯ"/>
+    <shift a="ȵ" b="ᶰ"/>
 
     <shift a="," b="'"/>
 
@@ -128,6 +133,7 @@ CapsLock can also be optionally toggled on
     <fn a="@" b="*"/>
     <fn a="ɯ" b="\"/>
     <fn a="ʷ" b="|"/>
+    <fn a="ʍ" b="^"/>
     <fn a="ɸ" b=":"/>
     <fn a="ʘ" b=";"/>
 
