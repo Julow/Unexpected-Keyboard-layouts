@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keyboard bottom_row="false" name="Thumb (Français)" script="latin">
+  <modmap>
+    <fn a="switch_forward" b="switch_backward"/>
+    <fn a="copy" b="cut"/>
+  </modmap>
+  <row>
+    <key c="a" nw="|" ne="à" sw="$" se="v" anticircle="1"/>
+    <key c="n" nw="`" e="!" n="^" sw="+" s="l" anticircle="2"/>
+    <key c="i" n="loc esc" e="loc tab" sw="x" w="\?" s="=" anticircle="3"/>
+    <key role="action" c="voice_typing" w="copy" n="switch_forward" e="paste" s="selectAll" ne="config"/>
+    <key c="a" nw="\\" ne="à" sw="&quot;" se="v" anticircle="1"/>
+    <key c="n" nw="%" ne="*" sw="/" s="l" e="!" anticircle="2"/>
+    <key c="i" n="loc esc" e="loc tab" sw="x" s="loc €" w="\?" anticircle="3"/>
+  </row>
+  <row>
+    <key c="u" ne="(" se=")" e="k" n="loc compose" s="ç" anticircle="4"/>
+    <key c="o" nw="q" ne="p" sw="g" se="j" w="c" e="b" n="h" s="d" anticircle="5"/>
+    <key c="r" nw="-" ne="[" se="]" sw="m" anticircle="6"/>
+    <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" w="change_method" e="loc switch_clipboard"/>
+    <key c="u" e="k" n="loc compose" nw="loc accent_trema" s="ç" sw="loc accent_circonflexe" ne="loc accent_grave" anticircle="4"/>
+    <key c="o" nw="q" ne="p" sw="g" se="j" w="c" e="b" n="h" s="d" anticircle="5"/>
+    <key c="r" nw="-" ne="{" se="}" n="_" sw="m" anticircle="6"/>
+  </row>
+  <row>
+    <key c="t" ne="y" e="é" n="ê" s="&amp;" anticircle="7"/>
+    <key c="e" se="," w="è" e="z" n="w" sw="." anticircle="8"/>
+    <key c="s" nw="f" ne="'" sw="&lt;" se="&gt;" w="\#" anticircle="9"/>
+    <key role="action" c="backspace" s="delete" nw="ctrl" n="loc alt" ne="fn"/>
+    <key c="t" w="~" s="\@" ne="y" e="é" n="ê" anticircle="7"/>
+    <key c="e" se="," w="è" e="z" n="w" sw="." anticircle="8"/>
+    <key c="s" nw="f" ne="'" sw=":" se=";" anticircle="9"/>
+  </row>
+  <row>
+    <key width="3" role="space_bar" c="space" w="cursor_left" e="cursor_right" anticircle="0" slider="true"/>
+    <key role="action" c="enter" sw="action" n="shift"/>
+    <key width="3" role="space_bar" c="space" w="cursor_left" e="cursor_right" anticircle="0" slider="true"/>
+  </row>
+</keyboard>

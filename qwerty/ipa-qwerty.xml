@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+IPA QWERTY Layout based on gboard QWERTY IPA,
+mixed in with a little bit of Fcitx5 IPA Layout
+Superscript is built in, but Subcript can be optionally toggled on
+CapsLock can also be optionally toggled on
+
+- SHIFT to access diacritics & symbols
+- Fn to access ɢʟᴏꜱꜱ mode
+- Fn & SHIFT to access capital letters
+- Num mode to access less common symbols
+
+-->
+<keyboard name="QWERTY IPA" bottom_row="false" script="latin">
+ <modmap>
+    <shift a="ɨ" b="˥"/>
+    <shift a="ø" b="˦"/>
+    <shift a="ɜ" b="˧"/>
+    <shift a="ɾ" b="˨"/>
+    <shift a="ɫ" b="˩"/>
+    <shift a="ɤ" b="ˈ"/> <shift a="œ" b="ˌ"/>
+    <shift a="ʕ" b="ː"/>
+    <shift a="ʔ" b="ˑ"/>
+
+    <shift a="1" b="combining_double_aigu"/>
+    <shift a="2" b="combining_aigu"/>
+    <shift a="3" b="combining_macron"/>
+    <shift a="4" b="combining_grave"/>
+    <shift a="5" b="̏"/>
+    <shift a="6" b="̌"/>
+    <shift a="7" b="combining_circonflexe"/>
+    <shift a="8" b="᷄"/>
+    <shift a="9" b="᷅"/>
+    <shift a="0" b="᷈"/>
+
+    <shift a="q" b="̴"/>
+    <shift a="w" b="̝"/>
+    <shift a="e" b="combining_trema"/>
+    <shift a="ɘ" b="̤"/>
+
+    <shift a="r" b="˞"/>
+
+    <shift a="t" b="̪"/>
+    <shift a="t̪" b="͆"/>
+    <shift a="θ" b="̻"/>
+    <shift a="ʈ" b="̺"/>
+
+    <shift a="y" b="combining_caron"/>
+    <shift a="ʎ" b="̂"/>
+
+    <shift a="u" b="combining_breve"/>
+    <shift a="i" b="combining_dot_above"/>
+    <shift a="o" b="combining_ring"/>
+    <shift a="ɔ" b="̥"/>
+
+    <shift a="p" b="combining_tilde"/>
+    <shift a="ɸ" b="̰"/>
+
+    <shift a="a" b="̘"/>
+    <shift a="s" b="̞"/>
+    <shift a="d" b="̙"/>
+    <shift a="f" b="̟"/>
+
+    <shift a="g" b="˓"/>
+    <shift a="ɠ" b="͑"/>
+    <shift a="ʛ" b="˒"/>
+    <shift a="ɣ" b="͗"/>
+
+    <shift a="h" b="̚"/>
+    <shift a="j" b="̯"/>
+    <shift a="k" b="̥"/>
+    <shift a="l" b="̩"/>
+
+    <shift a="z" b="ʼ"/>
+    <shift a="ˣ" b="̽"/>
+    <shift a="c" b="̜"/>
+    <shift a="v" b="̬"/>
+    <shift a="b" b="͡"/>
+    <shift a="β" b="͜"/>
+    <shift a="n" b="‿"/>
+    <shift a="m" b="/"/>
+    <shift a="ɲ" b="ᶮ"/>
+    <shift a="ɳ" b="ᶯ"/>
+    <shift a="ȵ" b="ᶰ"/>
+
+    <shift a="," b="'"/>
+
+    <fn a="ɨ" b="."/>
+    <fn a="ø" b="-"/>
+    <fn a="ɜ" b="_"/>
+    <fn a="ɾ" b="="/>
+    <fn a="ɫ" b="["/>
+    <fn a="ʀ" b="]"/>
+    <fn a="ɤ" b="&lt;"/>
+    <fn a="œ" b="&gt;"/>
+    <fn a="ʕ" b="∅"/>
+    <fn a="ʔ" b="`"/>
+
+    <fn a="ø̞" b="+"/>
+    <fn a="ɞ" b="#"/>
+    <fn a="ɛ" b="~"/>
+    <fn a="ɿ" b="$"/>
+    <fn a="ɺ" b="≠"/>
+    <fn a="ǁ" b="%"/>
+    <fn a="ɮ" b="{"/>
+    <fn a="ʁ" b="}"/>
+    <fn a="ɤ̞" b="("/>
+    <fn a="ɵ" b=")"/>
+
+    <fn a="1" b="1"/>
+    <fn a="2" b="2"/>
+    <fn a="3" b="3"/>
+    <fn a="4" b="4"/>
+    <fn a="5" b="5"/>
+    <fn a="6" b="6"/>
+    <fn a="7" b="7"/>
+    <fn a="8" b="8"/>
+    <fn a="9" b="9"/>
+    <fn a="0" b="0"/>
+
+    <fn a="q" b="ϙ"/>
+    <fn a="w" b="ᴡ"/>
+    <fn a="e" b="ᴇ"/>
+    <fn a="r" b="ʀ"/>
+    <fn a="t" b="ᴛ"/>
+    <fn a="y" b="ʏ"/>
+    <fn a="u" b="ᴜ"/>
+    <fn a="i" b="ɪ"/>
+    <fn a="o" b="ᴏ"/>
+    <fn a="p" b="ᴘ"/>
+
+    <fn a="&quot;" b="&amp;"/>
+    <fn a="@" b="*"/>
+    <fn a="ɯ" b="\"/>
+    <fn a="ʷ" b="|"/>
+    <fn a="ʍ" b="^"/>
+    <fn a="ɸ" b=":"/>
+    <fn a="ʘ" b=";"/>
+
+    <fn a="a" b="ᴀ"/>
+    <fn a="s" b="ꜱ"/>
+    <fn a="d" b="ᴅ"/>
+    <fn a="f" b="ꜰ"/>
+    <fn a="g" b="ɢ"/>
+    <fn a="h" b="ʜ"/>
+    <fn a="j" b="ᴊ"/>
+    <fn a="k" b="ᴋ"/>
+    <fn a="l" b="ʟ"/>
+
+    <fn a="z" b="ᴢ"/>
+    <fn a="x" b="x"/>
+    <fn a="c" b="ᴄ"/>
+    <fn a="v" b="ᴠ"/>
+    <fn a="b" b="ʙ"/>
+    <fn a="n" b="ɴ"/>
+    <fn a="m" b="ᴍ"/>
+
+   <shift a="ϙ" b="Q"/>
+    <shift a="ᴡ" b="W"/>
+    <shift a="ᴇ" b="E"/>
+    <shift a="ʀ" b="R"/>
+    <shift a="ᴛ" b="T"/>
+    <shift a="ʏ" b="Y"/>
+    <shift a="ᴜ" b="U"/>
+    <shift a="ɪ" b="I"/>
+    <shift a="ᴏ" b="O"/>
+    <shift a="ᴘ" b="P"/>
+
+    <shift a="ᴀ" b="A"/>
+    <shift a="ꜱ" b="S"/>
+    <shift a="ᴅ" b="D"/>
+    <shift a="ꜰ" b="F"/>
+    <shift a="ɢ" b="G"/>
+    <shift a="ʜ" b="H"/>
+    <shift a="ᴊ" b="J"/>
+    <shift a="ᴋ" b="K"/>
+    <shift a="ʟ" b="L"/>
+
+    <shift a="ᴢ" b="Z"/>
+    <shift a="x" b="X"/>
+    <shift a="ᴄ" b="C"/>
+    <shift a="ᴠ" b="V"/>
+    <shift a="ʙ" b="B"/>
+    <shift a="ɴ" b="N"/>
+    <shift a="ᴍ" b="M"/>
+ </modmap>
+ <row>
+    <key c="ɨ" ne="1" nw="!"/>
+    <key c="ø" ne="2" nw="?" sw="ø̞"/>
+    <key c="ɜ" ne="3" nw="ɞ" sw="ɛ" se="ɝ"/>
+    <key c="ɾ" ne="4" nw="ɿ" sw="ɺ"/>
+    <key c="ɫ" ne="5" nw="ɮ" s="ǁ"/>
+    <key c="ʀ" ne="6" nw="ʁ"/>
+    <key c="ɤ" ne="7" nw="ɤ̞"/>
+    <key c="œ" ne="8" nw="ɵ"/>
+    <key c="ʕ" ne="9" nw="ʢ" sw="ˁ"/>
+    <key c="ʔ" ne="0" nw="ʡ" sw="ˀ"/>
+  </row>
+  <row>
+    <key c="q" nw="&quot;" ne="@" sw="ʠ" se="ǃ"/>
+    <key c="w" nw="ɯ" ne="ʷ" sw="ɰ" se="ʍ"/>
+    <key c="e" sw="ə" se="ɚ" nw="ᵊ" ne="ɘ"/>
+    <key c="r" sw="ɻ" se="ɹ" nw="ɽ" ne="ɺ"/>
+    <key c="t" sw="θ" se="ʈ" nw="t̪" ne="ᶿ"/>
+    <key c="y" nw="ʏ" ne="ʎ"/>
+    <key c="u" nw="ʊ" ne="ʉ"/>
+    <key c="i" nw="ɪ" ne="ɨ"/>
+    <key c="o" nw="ɔ" ne="o̞"/>
+    <key c="p" n="ɸ" s="ʘ"/>
+  </row>
+  <row>
+    <key shift="0.5" c="a" sw="æ" se="ɑ" nw="ɒ" ne="ɐ"/>
+    <key c="s" sw="ʃ" se="ʂ" nw="ʆ" ne="ᶴ"/>
+    <key c="d" sw="ð" se="ɖ" nw="ɗ" ne="ᶑ"/>
+    <key c="f"/>
+    <key c="g" sw="ɣ" se="ɢ" nw="ɠ" ne="ʛ"/>
+    <key c="h" sw="ʜ" se="ɥ" nw="ɦ" ne="ħ"/>
+    <key c="j" sw="ɟ" se="ʄ" nw="ʝ" ne="ʲ"/>
+    <key c="k" sw="ɧ" se="ʞ"/>
+    <key c="l" sw="ʟ" se="ɭ" nw="ȴ" ne="ɬ"/>
+  </row>
+  <row>
+    <key width="1.5" c="shift" key2="loc capslock" s="loc subscript"/>
+    <key c="z" sw="ʒ" se="ʐ" nw="ʓ" ne="ʑ"/>
+    <key c="x" sw="χ" nw="ɣ" ne="ˣ"/>
+    <key c="c" nw="ç" ne="ɕ" sw="ǀ" se="ǂ"/>
+    <key c="v" sw="ʋ" se="ʌ" nw="ⱱ" ne="ɴ"/>
+    <key c="b" sw="β" se="ʙ" nw="ɓ"/>
+    <key c="n" sw="ŋ" se="ɳ" nw="ɲ" ne="ȵ"/>
+    <key c="m" sw="ɱ" se="ⁿ" nw="ᵐ" ne="ᵑ"/>
+    <key width="1.5" c="backspace" se="delete"/>
+  </row>
+<row height="0.95">
+  <key width="1.7" key0="ctrl" key2="loc alt" key3="loc switch_clipboard" key4="switch_numeric"/>
+  <key width="1.1" key0="fn" key2="loc change_method" key3="switch_emoji" key4="config"/>
+  <key width="4.4" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
+  <key width="1.1" key0="ʰ" n="superscript" s=","/>
+  <key width="1.7" c="enter" s="esc" n="action"/>
+</row>
+</keyboard>
