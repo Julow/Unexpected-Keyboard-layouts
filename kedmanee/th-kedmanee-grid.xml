@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- by: qondonion!! -->
 <keyboard name="Kedmanee (TH)" script="thai">
   <row>
-    <key c="_" width="0.5" nw="loc esc" sw="`" ne="~"/>
-    <key c="ๅ" sw="1" ne="!"/>
+    <key c="ๅ" sw="1" ne="!" nw="loc esc" se="`"/>
     <key c="/" sw="2" ne="@"/>
     <key c="-" sw="3" ne="#"/>
     <key c="ภ" sw="4" ne="$"/>
@@ -28,10 +28,9 @@
     <key c="ย"/>
     <key c="บ" sw="[" ne="{"/>
     <key c="ล" sw="]" ne="}"/>
-    <key c="ฃ" ne="|" sw="\\"/>
   </row>
   <row>
-    <key c="ฟ" se="loc selectAll" shift="0.5"/>
+    <key c="ฟ" se="loc selectAll"/>
     <key c="ห"/>
     <key c="ก"/>
     <key c="ด"/>
@@ -42,9 +41,10 @@
     <key c="ส"/>
     <key c="ว" ne=":" sw=";"/>
     <key c="ง" ne='"' sw="'"/>
+    <key c="ฃ" ne="|" sw="\\"/>
   </row>
   <row>
-    <key width="1.0" c="shift" ne="loc capslock"/>
+    <key c="shift" ne="loc capslock"/>
     <key c="ผ" se="loc undo"/>
     <key c="ป" se="loc cut"/>
     <key c="แ" se="loc copy"/>
@@ -55,7 +55,7 @@
     <key c="ม" ne="&lt;" sw="."/>
     <key c="ใ" ne="&gt;" sw=","/>
     <key c="ฝ" ne="\?" sw="/"/>
-    <key width="2.0" c="backspace" ne="delete"/>
+    <key c="backspace" ne="delete"/>
   </row>
   <modmap>
   <shift a="_" b="%" />
@@ -108,8 +108,9 @@
   <shift a="ม" b="ฒ" />
   <shift a="ใ" b="ฬ" />
   <shift a="ฝ" b="ฦ" />
+
+  <shift a="`" b="~" />
   </modmap>
 </keyboard> 
 
   
-
