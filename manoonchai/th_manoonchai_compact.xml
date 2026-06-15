@@ -25,7 +25,7 @@
   </row>
   <row>
     <key width="1.5" c="shift" ne="loc capslock"/>
-    <key c=" ไ" nw="ุ"/>
+    <key c="ไ" nw="ุ"/>
     <key c="ท"/>
     <key c="ย" sw="."/>
     <key c="จ" nw="&lt;" ne=">" sw=","/>
