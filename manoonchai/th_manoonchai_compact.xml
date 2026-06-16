@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keyboard name="Manoonchai Compact (TH)" script="thai">
+  <row>
+    <key c="ต" nw="esc" ne="1" sw="tab" se="`"/>
+    <key c="ห" nw="ฏ" ne="2" sw="\@"/>
+    <key c="ล" ne="3" sw="\#"/>
+    <key c="ส" ne="4" sw="$"/>
+    <key c="ป" ne="5" sw="%"/>
+    <key c="ั" ne="6" sw="^"/>
+    <key c="ก" ne="7" sw="&amp;"/>
+    <key c="ิ" ne="8" sw="*"/>
+    <key c="บ" nw="ๅ" ne="9" sw="(" se=")"/>
+    <key c="็" nw="ฃ" ne="0" sw="ฬ" se="ฯ"/>
+  </row>
+  <row>
+    <key shift="0.5" c="เ" nw="ง"/>
+    <key c="ร"/>
+    <key c="น"/>
+    <key c="ม"/>
+    <key c="อ" ne="-" sw="_"/>
+    <key c="า" ne="=" sw="+"/>
+    <key c="่" ne="f11_placeholder" sw="{" se="}"/>
+    <key c="้" ne="f12_placeholder" sw="[" se="]"/>
+    <key c="ว" sw="/" ne="ื"/>
+  </row>
+  <row>
+    <key width="1.5" c="shift" ne="loc capslock"/>
+    <key c="ไ" nw="ุ"/>
+    <key c="ท"/>
+    <key c="ย" sw="."/>
+    <key c="จ" nw="&lt;" ne=">" sw=","/>
+    <key c="ค" ne="\?" sw="!"/>
+    <key c="ี" ne="ด" se=":"/>
+    <key c="ะ" ne="ู" sw="'" se="&quot;"/>
+    <key width="1.5" c="backspace" ne="delete"/>
+  </row>
+  <modmap>
+    <shift a="1" b="๑"/>
+    <shift a="2" b="๒"/>
+    <shift a="3" b="๓"/>
+    <shift a="4" b="๔"/>
+    <shift a="5" b="๕"/>
+    <shift a="6" b="๖"/>
+    <shift a="7" b="๗"/>
+    <shift a="8" b="๘"/>
+    <shift a="9" b="๙"/>
+    <shift a="0" b="๐"/>
+
+    <shift a="`" b="~"/>
+    <shift a="ต" b="ใ"/>
+    <shift a="ห" b="ซ"/>
+    <shift a="ฏ" b="ฒ"/>
+    <shift a="ล" b="ญ"/>
+    <shift a="ส" b="ฟ"/>
+    <shift a="$" b="฿"/>
+    <shift a="ป" b="ฉ"/>
+    <shift a="ั" b="ึ"/>
+    <shift a="ก" b="ธ"/>
+    <shift a="ิ" b="ฐ"/>
+    <shift a="บ" b="ฎ"/>
+    <shift a="ๅ" b="ํ"/>
+    <shift a="็" b="ฆ"/>
+    <shift a="ฬ" b="ฑ"/>
+    <shift a="ฯ" b="ณ"/>
+    <shift a="ฃ" b="ฅ"/>
+
+    <shift a="เ" b="ถ"/>
+    <shift a="ง" b="ษ"/>
+    <shift a="ร" b="แ"/>
+    <shift a="น" b="ช"/>
+    <shift a="ม" b="พ"/>
+    <shift a="อ" b="ผ"/>
+    <shift a="า" b="ำ"/>
+    <shift a="่" b="ข"/>
+    <shift a="้" b="โ"/>
+    <shift a="ว" b="ภ"/>
+    <shift a="ื" b="ฦ"/>
+    <shift a="/" b="\"/>
+
+    <shift a="ไ" b="ฝ"/>
+    <shift a="ุ" b="ฤ"/>
+    <shift a="ท" b="ๆ"/>
+    <shift a="ย" b="ณ"/>
+    <shift a="." b="ฺ"/>
+    <shift a="จ" b="๊"/>
+    <shift a="ค" b="๋"/>
+    <shift a="ี" b="์"/>
+    <shift a="ด" b="ศ"/>
+    <shift a=":" b=";"/>
+    <shift a="ะ" b="ฮ"/>
+    <shift a="ู" b="ฌ"/>
+  </modmap>
+</keyboard>
