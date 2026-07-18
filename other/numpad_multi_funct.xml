@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- a numpad with multiple functions built-in, inspired by Multiling O Keyboard -->
+<keyboard name="numpad multi function" embedded_number_row="true">
+  <row>
+    <key width="2" c="1" w="2" n="3" e="4" s="5"/>
+    <key width="2" n="copy" s="paste" w="undo" e="redo"/>
+    <key width="2" n="cursor_up" s="cursor_down" w="cursor_left" e="cursor_right"
+      nw="home" sw="end" ne="page_up" se="page_down"/>
+    <key width="2" n="switch_clipboard" s="delete" w="delete_word" e="forward_delete_word"/>
+    <key width="2" c="6" w="7" n="8" e="9" s="0"/>
+  </row>
+</keyboard>
