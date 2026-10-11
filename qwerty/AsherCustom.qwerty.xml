@@ -52,7 +52,7 @@ Useful links.
     <key c="p" ne="0"/>
   </row>
   <row>
-    <key width="1.2" role="action"  c="loc tab" ne="\t" s="Tab:keyevent:61" />
+    <key width="1.2" role="action"  c="tab" e="\t" />
     <key shift="-1.0" c="a" ne="`"/>
     <key c="s" ne="loc §" sw="loc ß"/>
     <key c="d"/>
